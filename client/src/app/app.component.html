@@ -10,67 +10,67 @@
   </div>
 
 
-  <div *ngIf="topics['stock']['ok'][0]" class="circle blue" style="position:absolute; top: calc(25px + 7.5vw); left: calc(9vw)">1</div>
-  <div *ngIf="topics['stock']['ok'][1]" class="circle green" style="position:absolute; top: calc(25px + 7.5vw); left: calc(12vw)">2</div>
-  <div *ngIf="topics['stock']['ok'][2]" class="circle yellow" style="position:absolute; top: calc(25px + 7.5vw); left: calc(18vw)">3</div>
-  <div *ngIf="topics['stock']['ok'][3]" class="circle red" style="position:absolute; top: calc(25px + 7.5vw); left: calc(21vw)">4</div>
+  <div *ngIf="topics['stock']['ok'][0] > 0" class="circle blue" style="position:absolute; top: calc(25px + 7.5vw); left: calc(9vw)">{{topics['stock']['ok'][0]}}</div>
+  <div *ngIf="topics['stock']['ok'][1] > 0" class="circle green" style="position:absolute; top: calc(25px + 7.5vw); left: calc(12vw)">{{topics['stock']['ok'][1]}}</div>
+  <div *ngIf="topics['stock']['ok'][2] > 0" class="circle yellow" style="position:absolute; top: calc(25px + 7.5vw); left: calc(18vw)">{{topics['stock']['ok'][2]}}</div>
+  <div *ngIf="topics['stock']['ok'][3] > 0" class="circle red" style="position:absolute; top: calc(25px + 7.5vw); left: calc(21vw)">{{topics['stock']['ok'][3]}}</div>
 
-  <div *ngIf="topics['payment']['ok'][0]" class="circle blue" style="position:absolute; top: calc(25px + 7.5vw); left: calc(27.5vw)">1</div>
-  <div *ngIf="topics['payment']['ok'][1]" class="circle green" style="position:absolute; top: calc(25px + 7.5vw); left: calc(30.5vw)">2</div>
-  <div *ngIf="topics['payment']['ok'][2]" class="circle yellow" style="position:absolute; top: calc(25px + 7.5vw); left: calc(36vw)">3</div>
-  <div *ngIf="topics['payment']['ok'][3]" class="circle red" style="position:absolute; top: calc(25px + 7.5vw); left: calc(39vw)">4</div>
+  <div *ngIf="topics['payment']['ok'][0] > 0" class="circle blue" style="position:absolute; top: calc(25px + 7.5vw); left: calc(27.5vw)">{{topics['payment']['ok'][0]}}</div>
+  <div *ngIf="topics['payment']['ok'][1] > 0" class="circle green" style="position:absolute; top: calc(25px + 7.5vw); left: calc(30.5vw)">{{topics['payment']['ok'][1]}}</div>
+  <div *ngIf="topics['payment']['ok'][2] > 0" class="circle yellow" style="position:absolute; top: calc(25px + 7.5vw); left: calc(36vw)">{{topics['payment']['ok'][2]}}</div>
+  <div *ngIf="topics['payment']['ok'][3] > 0" class="circle red" style="position:absolute; top: calc(25px + 7.5vw); left: calc(39vw)">{{topics['payment']['ok'][3]}}</div>
 
-  <div *ngIf="topics['shipment']['ok'][0]" class="circle blue" style="position:absolute; top: calc(25px + 7.5vw); left: calc(45.5vw)">1</div>
-  <div *ngIf="topics['shipment']['ok'][1]" class="circle green" style="position:absolute; top: calc(25px + 7.5vw); left: calc(48.5vw)">2</div>
-  <div *ngIf="topics['shipment']['ok'][2]" class="circle yellow" style="position:absolute; top: calc(25px + 7.5vw); left: calc(54vw)">3</div>
-  <div *ngIf="topics['shipment']['ok'][3]" class="circle red" style="position:absolute; top: calc(25px + 7.5vw); left: calc(57vw)">4</div>
+  <div *ngIf="topics['shipment']['ok'][0] > 0" class="circle blue" style="position:absolute; top: calc(25px + 7.5vw); left: calc(45.5vw)">{{topics['shipment']['ok'][0]}}</div>
+  <div *ngIf="topics['shipment']['ok'][1] > 0" class="circle green" style="position:absolute; top: calc(25px + 7.5vw); left: calc(48.5vw)">{{topics['shipment']['ok'][1]}}</div>
+  <div *ngIf="topics['shipment']['ok'][2] > 0" class="circle yellow" style="position:absolute; top: calc(25px + 7.5vw); left: calc(54vw)">{{topics['shipment']['ok'][2]}}</div>
+  <div *ngIf="topics['shipment']['ok'][3] > 0" class="circle red" style="position:absolute; top: calc(25px + 7.5vw); left: calc(57vw)">{{topics['shipment']['ok'][3]}}</div>
 
-  <div *ngIf="topics['invoice']['ok'][0]" class="circle blue" style="position:absolute; top: calc(25px + 7.5vw); left: calc(63.5vw)">1</div>
-  <div *ngIf="topics['invoice']['ok'][1]" class="circle green" style="position:absolute; top: calc(25px + 7.5vw); left: calc(66.5vw)">2</div>
-  <div *ngIf="topics['invoice']['ok'][2]" class="circle yellow" style="position:absolute; top: calc(25px + 7.5vw); left: calc(72vw)">3</div>
-  <div *ngIf="topics['invoice']['ok'][3]" class="circle red" style="position:absolute; top: calc(25px + 7.5vw); left: calc(75vw)">4</div>
+  <div *ngIf="topics['invoice']['ok'][0] > 0" class="circle blue" style="position:absolute; top: calc(25px + 7.5vw); left: calc(63.5vw)">{{topics['invoice']['ok'][0]}}</div>
+  <div *ngIf="topics['invoice']['ok'][1] > 0" class="circle green" style="position:absolute; top: calc(25px + 7.5vw); left: calc(66.5vw)">{{topics['invoice']['ok'][1]}}</div>
+  <div *ngIf="topics['invoice']['ok'][2] > 0" class="circle yellow" style="position:absolute; top: calc(25px + 7.5vw); left: calc(72vw)">{{topics['invoice']['ok'][2]}}</div>
+  <div *ngIf="topics['invoice']['ok'][3] > 0" class="circle red" style="position:absolute; top: calc(25px + 7.5vw); left: calc(75vw)">{{topics['invoice']['ok'][3]}}</div>
 
 
 
-  <div *ngIf="topics['shop_order']['ko'][0]" class="circle blue" style="position:absolute; top: calc(25px + 18vw); left: calc(9vw)">1</div>
-  <div *ngIf="topics['shop_order']['ko'][1]" class="circle green" style="position:absolute; top: calc(25px + 18vw); left: calc(12vw)">2</div>
-  <div *ngIf="topics['shop_order']['ko'][2]" class="circle yellow" style="position:absolute; top: calc(25px + 18vw); left: calc(18vw)">3</div>
-  <div *ngIf="topics['shop_order']['ko'][3]" class="circle red" style="position:absolute; top: calc(25px + 18vw); left: calc(21vw)">4</div>
+  <div *ngIf="topics['shop_order']['ko'][0] > 0" class="circle blue" style="position:absolute; top: calc(25px + 18vw); left: calc(9vw)">{{topics['shop_order']['ko'][0]}}</div>
+  <div *ngIf="topics['shop_order']['ko'][1] > 0" class="circle green" style="position:absolute; top: calc(25px + 18vw); left: calc(12vw)">{{topics['shop_order']['ko'][1]}}</div>
+  <div *ngIf="topics['shop_order']['ko'][2] > 0" class="circle yellow" style="position:absolute; top: calc(25px + 18vw); left: calc(18vw)">{{topics['shop_order']['ko'][2]}}</div>
+  <div *ngIf="topics['shop_order']['ko'][3] > 0" class="circle red" style="position:absolute; top: calc(25px + 18vw); left: calc(21vw)">{{topics['shop_order']['ko'][3]}}</div>
 
-  <div *ngIf="topics['stock']['ko'][0]" class="circle blue" style="position:absolute; top: calc(25px + 18vw); left: calc(27.5vw)">1</div>
-  <div *ngIf="topics['stock']['ko'][1]" class="circle green" style="position:absolute; top: calc(25px + 18vw); left: calc(30.5vw)">2</div>
-  <div *ngIf="topics['stock']['ko'][2]" class="circle yellow" style="position:absolute; top: calc(25px + 18vw); left: calc(36vw)">3</div>
-  <div *ngIf="topics['stock']['ko'][3]" class="circle red" style="position:absolute; top: calc(25px + 18vw); left: calc(39vw)">4</div>
+  <div *ngIf="topics['stock']['ko'][0] > 0" class="circle blue" style="position:absolute; top: calc(25px + 18vw); left: calc(27.5vw)">{{topics['stock']['ko'][0]}}</div>
+  <div *ngIf="topics['stock']['ko'][1] > 0" class="circle green" style="position:absolute; top: calc(25px + 18vw); left: calc(30.5vw)">{{topics['stock']['ko'][1]}}</div>
+  <div *ngIf="topics['stock']['ko'][2] > 0" class="circle yellow" style="position:absolute; top: calc(25px + 18vw); left: calc(36vw)">{{topics['stock']['ko'][2]}}</div>
+  <div *ngIf="topics['stock']['ko'][3] > 0" class="circle red" style="position:absolute; top: calc(25px + 18vw); left: calc(39vw)">{{topics['stock']['ko'][3]}}</div>
 
-  <div *ngIf="topics['payment']['ko'][0]" class="circle blue" style="position:absolute; top: calc(25px + 18vw); left: calc(45.5vw)">1</div>
-  <div *ngIf="topics['payment']['ko'][1]" class="circle green" style="position:absolute; top: calc(25px + 18vw); left: calc(48.5vw)">2</div>
-  <div *ngIf="topics['payment']['ko'][2]" class="circle yellow" style="position:absolute; top: calc(25px + 18vw); left: calc(54vw)">3</div>
-  <div *ngIf="topics['payment']['ko'][3]" class="circle red" style="position:absolute; top: calc(25px + 18vw); left: calc(57vw)">4</div>
+  <div *ngIf="topics['payment']['ko'][0] > 0" class="circle blue" style="position:absolute; top: calc(25px + 18vw); left: calc(45.5vw)">{{topics['payment']['ko'][0]}}</div>
+  <div *ngIf="topics['payment']['ko'][1] > 0" class="circle green" style="position:absolute; top: calc(25px + 18vw); left: calc(48.5vw)">{{topics['payment']['ko'][1]}}</div>
+  <div *ngIf="topics['payment']['ko'][2] > 0" class="circle yellow" style="position:absolute; top: calc(25px + 18vw); left: calc(54vw)">{{topics['payment']['ko'][2]}}</div>
+  <div *ngIf="topics['payment']['ko'][3] > 0" class="circle red" style="position:absolute; top: calc(25px + 18vw); left: calc(57vw)">{{topics['payment']['ko'][3]}}</div>
 
-  <div *ngIf="topics['shipment']['ko'][0]" class="circle blue" style="position:absolute; top: calc(25px + 18vw); left: calc(63.5vw)">1</div>
-  <div *ngIf="topics['shipment']['ko'][1]" class="circle green" style="position:absolute; top: calc(25px + 18vw); left: calc(66.5vw)">2</div>
-  <div *ngIf="topics['shipment']['ko'][2]" class="circle yellow" style="position:absolute; top: calc(25px + 18vw); left: calc(72vw)">3</div>
-  <div *ngIf="topics['shipment']['ko'][3]" class="circle red" style="position:absolute; top: calc(25px + 18vw); left: calc(75vw)">4</div>
+  <div *ngIf="topics['shipment']['ko'][0] > 0" class="circle blue" style="position:absolute; top: calc(25px + 18vw); left: calc(63.5vw)">{{topics['shipment']['ko'][0]}}</div>
+  <div *ngIf="topics['shipment']['ko'][1] > 0" class="circle green" style="position:absolute; top: calc(25px + 18vw); left: calc(66.5vw)">{{topics['shipment']['ko'][1]}}</div>
+  <div *ngIf="topics['shipment']['ko'][2] > 0" class="circle yellow" style="position:absolute; top: calc(25px + 18vw); left: calc(72vw)">{{topics['shipment']['ko'][2]}}</div>
+  <div *ngIf="topics['shipment']['ko'][3] > 0" class="circle red" style="position:absolute; top: calc(25px + 18vw); left: calc(75vw)">{{topics['shipment']['ko'][3]}}</div>
   
 
 
 
-  <div *ngIf="topics['notification']['ko'][0]" class="circle blue" style="position:absolute; top: calc(25px + 21.5vw); left: calc(38vw)">1</div>
-  <div *ngIf="topics['notification']['ko'][1]" class="circle green" style="position:absolute; top: calc(25px + 21.5vw); left: calc(41vw)">2</div>
-  <div *ngIf="topics['notification']['ko'][2]" class="circle yellow" style="position:absolute; top: calc(25px + 21.5vw); left: calc(46.5vw)">3</div>
-  <div *ngIf="topics['notification']['ko'][3]" class="circle red" style="position:absolute; top: calc(25px + 21.5vw); left: calc(49.5vw)">4</div>
+  <div *ngIf="topics['notification']['ko'][0] > 0" class="circle blue" style="position:absolute; top: calc(25px + 21.5vw); left: calc(38vw)">{{topics['notification']['ko'][0]}}</div>
+  <div *ngIf="topics['notification']['ko'][1] > 0" class="circle green" style="position:absolute; top: calc(25px + 21.5vw); left: calc(41vw)">{{topics['notification']['ko'][1]}}</div>
+  <div *ngIf="topics['notification']['ko'][2] > 0" class="circle yellow" style="position:absolute; top: calc(25px + 21.5vw); left: calc(46.5vw)">{{topics['notification']['ko'][2]}}</div>
+  <div *ngIf="topics['notification']['ko'][3] > 0" class="circle red" style="position:absolute; top: calc(25px + 21.5vw); left: calc(49.5vw)">{{topics['notification']['ko'][3]}}</div>
 
 
 
-  <div *ngIf="topics['notification']['ok'][0]" class="circle blue" style="position:absolute; top: calc(25px + 0vw); left: calc(38vw)">1</div>
-  <div *ngIf="topics['notification']['ok'][1]" class="circle green" style="position:absolute; top: calc(25px + 0vw); left: calc(41vw)">2</div>
-  <div *ngIf="topics['notification']['ok'][2]" class="circle yellow" style="position:absolute; top: calc(25px + 0vw); left: calc(46.5vw)">3</div>
-  <div *ngIf="topics['notification']['ok'][3]" class="circle red" style="position:absolute; top: calc(25px + 0vw); left: calc(49.5vw)">4</div>
+  <div *ngIf="topics['notification']['ok'][0] > 0" class="circle blue" style="position:absolute; top: calc(25px + 0vw); left: calc(38vw)">{{topics['notification']['ok'][0]}}</div>
+  <div *ngIf="topics['notification']['ok'][1] > 0" class="circle green" style="position:absolute; top: calc(25px + 0vw); left: calc(41vw)">{{topics['notification']['ok'][1]}}</div>
+  <div *ngIf="topics['notification']['ok'][2] > 0" class="circle yellow" style="position:absolute; top: calc(25px + 0vw); left: calc(46.5vw)">{{topics['notification']['ok'][2]}}</div>
+  <div *ngIf="topics['notification']['ok'][3] > 0" class="circle red" style="position:absolute; top: calc(25px + 0vw); left: calc(49.5vw)">{{topics['notification']['ok'][3]}}</div>
 
-  <div *ngIf="topics['shop_order']['ok'][0]" class="circle blue" style="position:absolute; top: calc(25px + 3.25vw); left: calc(38vw)">1</div>
-  <div *ngIf="topics['shop_order']['ok'][1]" class="circle green" style="position:absolute; top: calc(25px + 3.25vw); left: calc(41vw)">2</div>
-  <div *ngIf="topics['shop_order']['ok'][2]" class="circle yellow" style="position:absolute; top: calc(25px + 3.25vw); left: calc(46.5vw)">3</div>
-  <div *ngIf="topics['shop_order']['ok'][3]" class="circle red" style="position:absolute; top: calc(25px + 3.25vw); left: calc(49.5vw)">4</div>
+  <div *ngIf="topics['shop_order']['ok'][0] > 0" class="circle blue" style="position:absolute; top: calc(25px + 3.25vw); left: calc(38vw)">{{topics['shop_order']['ok'][0]}}</div>
+  <div *ngIf="topics['shop_order']['ok'][1] > 0" class="circle green" style="position:absolute; top: calc(25px + 3.25vw); left: calc(41vw)">{{topics['shop_order']['ok'][1]}}</div>
+  <div *ngIf="topics['shop_order']['ok'][2] > 0" class="circle yellow" style="position:absolute; top: calc(25px + 3.25vw); left: calc(46.5vw)">{{topics['shop_order']['ok'][2]}}</div>
+  <div *ngIf="topics['shop_order']['ok'][3] > 0" class="circle red" style="position:absolute; top: calc(25px + 3.25vw); left: calc(49.5vw)">{{topics['shop_order']['ok'][3]}}</div>
 
 
   <div style="height: calc(100vh - 26vw - 75px); overflow: hidden; padding-top: 50px; padding-left:20px;padding-right:20px;">
@@ -83,12 +83,25 @@
       <div style="flex:1;">Message</div>
     </div>
 
-    <div *ngFor="let item of data" class="table-body">
-      <div style="width: 100px;overflow:hidden;font-size:14px">{{item.timestamp | date : 'HH:mm:ss'}}</div>
-      <div style="width: 100px;overflow:hidden;font-size:14px">{{item.topic}}</div>
-      <div style="width: 50px;overflow:hidden;font-size:14px;text-align: center;">{{item.data.team}}</div>
-      <div style="width: 100px;overflow:hidden;font-size:14px;text-align: center;">{{item.data.success}}</div>
-      <div style="flex: 1;overflow:hidden;font-size:14px;text-overflow: ellipsis;white-space: nowrap;">{{item.data.data | json}}</div>
+    <div *ngFor="let item of data">
+      <div *ngIf="item.data.team > 0 && item.data.team < 5" class="table-body">
+        <div style="width: 100px;overflow:hidden;font-size:14px;align-self: center;">{{item.timestamp | date : 'HH:mm:ss'}}</div>
+        <div style="width: 100px;overflow:hidden;font-size:14px;align-self: center;">{{item.topic}}</div>
+
+        <!--
+
+          <div style="width: 50px;overflow:hidden;font-size:14px;text-align: center;">{{item.data.team}}</div>
+        -->
+
+        <div *ngIf="item.data.team == 1" class="circle blue"></div>
+        <div *ngIf="item.data.team == 2" class="circle green"></div>
+        <div *ngIf="item.data.team == 3" class="circle yellow"></div>
+        <div *ngIf="item.data.team == 4" class="circle red"></div>
+
+
+        <div style="width: 100px;overflow:hidden;font-size:14px;text-align: center;align-self: center;">{{item.data.success}}</div>
+        <div style="flex: 1;overflow:hidden;font-size:14px;text-overflow: ellipsis;white-space: nowrap;align-self: center;">{{item.data.data | json}}</div>
+      </div>
     </div>
     
   </div>

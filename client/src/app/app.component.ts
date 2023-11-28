@@ -11,12 +11,12 @@ export class AppComponent implements OnInit  {
 
     data : any[] = [];
     topics: any = {
-        "shop_order": { "ok": [false, false, false, false], "ko" : [false, false, false, false]}, 
-        "invoice": { "ok": [false, false, false, false], "ko" : [false, false, false, false]}, 
-        "payment": { "ok": [false, false, false, false], "ko" : [false, false, false, false]}, 
-        "shipment": { "ok": [false, false, false, false], "ko" : [false, false, false, false]}, 
-        "stock": { "ok": [false, false, false, false], "ko" : [false, false, false, false]}, 
-        "notification": { "ok": [false, false, false, false], "ko" : [false, false, false, false]}
+        "shop_order": { "ok": [0, 0, 0, 0], "ko" : [0, 0, 0, 0]}, 
+        "invoice": { "ok": [0, 0, 0, 0], "ko" : [0, 0, 0, 0]}, 
+        "payment": { "ok": [0, 0, 0, 0], "ko" : [0, 0, 0, 0]}, 
+        "shipment": { "ok": [0, 0, 0, 0], "ko" : [0, 0, 0, 0]}, 
+        "stock": { "ok": [0, 0, 0, 0], "ko" : [0, 0, 0, 0]}, 
+        "notification": { "ok": [0, 0, 0, 0], "ko" : [0, 0, 0, 0]}
     };
     
 
@@ -40,27 +40,29 @@ export class AppComponent implements OnInit  {
     }
 
     cleanFlagsTeam(team) {
-        this.topics["shop_order"]["ok"][team] = false;
-        this.topics["shop_order"]["ko"][team] = false;
+        this.topics["shop_order"]["ok"][team] = 0;
+        this.topics["shop_order"]["ko"][team] = 0;
 
-        this.topics["invoice"]["ok"][team] = false;
-        this.topics["invoice"]["ko"][team] = false;
+        this.topics["invoice"]["ok"][team] = 0;
+        this.topics["invoice"]["ko"][team] = 0;
 
-        this.topics["payment"]["ok"][team] = false;
-        this.topics["payment"]["ko"][team] = false;
+        this.topics["payment"]["ok"][team] = 0;
+        this.topics["payment"]["ko"][team] = 0;
 
-        this.topics["shipment"]["ok"][team] = false;
-        this.topics["shipment"]["ko"][team] = false;
+        this.topics["shipment"]["ok"][team] = 0;
+        this.topics["shipment"]["ko"][team] = 0;
 
-        this.topics["stock"]["ok"][team] = false;
-        this.topics["stock"]["ko"][team] = false;
+        this.topics["stock"]["ok"][team] = 0;
+        this.topics["stock"]["ko"][team] = 0;
 
-        this.topics["notification"]["ok"][team] = false;
-        this.topics["notification"]["ko"][team] = false;
+        this.topics["notification"]["ok"][team] = 0;
+        this.topics["notification"]["ko"][team] = 0;
     }
 
     refreshDataOnView(data: any[]) : void {
         let inverseOrderData = data.sort((a,b) => a.timestamp - b.timestamp);
+
+        let indexTeam = [1, 1, 1, 1];
 
         inverseOrderData.forEach(item => {
 
@@ -70,12 +72,13 @@ export class AppComponent implements OnInit  {
             
             if (topic === "stock" && success) {
                 this.cleanFlagsTeam(team);
+                indexTeam[team] = 1;
             }
 
             if (success)
-                this.topics[topic]["ok"][team] = true;
+                this.topics[topic]["ok"][team] = indexTeam[team]++;
             else
-                this.topics[topic]["ko"][team] = true;
+                this.topics[topic]["ko"][team] = indexTeam[team]++;
             
         })
 

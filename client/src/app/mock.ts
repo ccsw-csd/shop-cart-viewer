@@ -4,7 +4,7 @@ export const EVENT_DATA: any[] = [
         "timestamp": 1700645714735,
         "data": {
             "success": true,
-            "groupId": "order-group-id",
+            "groupId": "team-2",
             "data": {
                 "uuid": "9246b084-6753-474a-b228-08f1065d45a1",
                 "customer": "customer1",
@@ -18,7 +18,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": null,
                 "invoice": null
             },
-            "team": 0
+            "team": 2
         }
     },
     {
@@ -26,7 +26,7 @@ export const EVENT_DATA: any[] = [
         "timestamp": 1700645715404,
         "data": {
             "success": true,
-            "groupId": "order-group-id",
+            "groupId": "team-2",
             "data": {
                 "uuid": "9246b084-6753-474a-b228-08f1065d45a1",
                 "customer": "customer1",
@@ -40,7 +40,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": null,
                 "invoice": null
             },
-            "team": 0
+            "team": 2
         }
     },
     {
@@ -48,7 +48,7 @@ export const EVENT_DATA: any[] = [
         "timestamp": 1700645715776,
         "data": {
             "success": true,
-            "groupId": "order-group-id",
+            "groupId": "team-2",
             "data": {
                 "uuid": "9246b084-6753-474a-b228-08f1065d45a1",
                 "customer": "customer1",
@@ -62,7 +62,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": null,
                 "invoice": null
             },
-            "team": 0
+            "team": 2
         }
     },
     {
@@ -70,7 +70,7 @@ export const EVENT_DATA: any[] = [
         "timestamp": 1700645716152,
         "data": {
             "success": true,
-            "groupId": "order-group-id",
+            "groupId": "team-2",
             "data": {
                 "uuid": "9246b084-6753-474a-b228-08f1065d45a1",
                 "customer": "customer1",
@@ -84,7 +84,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": "2023-11-22T10:35:15.929162200",
                 "invoice": null
             },
-            "team": 0
+            "team": 2
         }
     },
     {
@@ -92,7 +92,7 @@ export const EVENT_DATA: any[] = [
         "timestamp": 1700645716452,
         "data": {
             "success": true,
-            "groupId": "order-group-id",
+            "groupId": "team-2",
             "data": {
                 "uuid": "9246b084-6753-474a-b228-08f1065d45a1",
                 "customer": "customer1",
@@ -106,7 +106,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": "2023-11-22T10:35:15.929162200",
                 "invoice": "9246b084-6753-474a-b228-08f1065d45a1-customer1-product1"
             },
-            "team": 0
+            "team": 2
         }
     },
     {
@@ -114,7 +114,7 @@ export const EVENT_DATA: any[] = [
         "timestamp": 1700645716789,
         "data": {
             "success": true,
-            "groupId": "order-group-id",
+            "groupId": "team-2",
             "data": {
                 "uuid": "9246b084-6753-474a-b228-08f1065d45a1",
                 "customer": "customer1",
@@ -136,7 +136,7 @@ export const EVENT_DATA: any[] = [
         "timestamp": 1700648580036,
         "data": {
             "success": true,
-            "groupId": "order-group-id",
+            "groupId": "team-3",
             "data": {
                 "uuid": "154c9de5-b0cb-4c52-a96a-af110741ded1",
                 "customer": "customer1",
@@ -150,7 +150,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": null,
                 "invoice": null
             },
-            "team": 0
+            "team": 3
         }
     },
     {
@@ -158,7 +158,7 @@ export const EVENT_DATA: any[] = [
         "timestamp": 1700648580176,
         "data": {
             "success": true,
-            "groupId": "order-group-id",
+            "groupId": "team-3",
             "data": {
                 "uuid": "154c9de5-b0cb-4c52-a96a-af110741ded1",
                 "customer": "customer1",
@@ -172,7 +172,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": null,
                 "invoice": null
             },
-            "team": 0
+            "team": 3
         }
     },
     {
@@ -180,7 +180,7 @@ export const EVENT_DATA: any[] = [
         "timestamp": 1700648580232,
         "data": {
             "success": true,
-            "groupId": "order-group-id",
+            "groupId": "team-3",
             "data": {
                 "uuid": "154c9de5-b0cb-4c52-a96a-af110741ded1",
                 "customer": "customer1",
@@ -194,7 +194,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": null,
                 "invoice": null
             },
-            "team": 0
+            "team": 3
         }
     },
     {
@@ -546,7 +546,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": null,
                 "invoice": null
             },
-            "team": 0
+            "team": 4
         }
     },
     {
@@ -568,7 +568,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": null,
                 "invoice": null
             },
-            "team": 0
+            "team": 4
         }
     },
     {
@@ -590,7 +590,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": null,
                 "invoice": null
             },
-            "team": 0
+            "team": 4
         }
     },
     {
@@ -612,7 +612,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": "2023-11-22T13:16:41.359958400",
                 "invoice": null
             },
-            "team": 0
+            "team": 4
         }
     },
     {
@@ -634,7 +634,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": "2023-11-22T13:16:41.359958400",
                 "invoice": null
             },
-            "team": 0
+            "team": 4
         }
     },
     {
@@ -656,7 +656,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": "2023-11-22T13:16:41.359958400",
                 "invoice": null
             },
-            "team": 0
+            "team": 4
         }
     },
     {
@@ -678,7 +678,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": "2023-11-22T13:16:41.359958400",
                 "invoice": null
             },
-            "team": 0
+            "team": 4
         }
     },
     {
@@ -700,7 +700,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": "2023-11-22T13:16:41.359958400",
                 "invoice": null
             },
-            "team": 0
+            "team": 4
         }
     },
     {
@@ -722,7 +722,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": "2023-11-22T13:16:41.359958400",
                 "invoice": null
             },
-            "team": 0
+            "team": 4
         }
     },
     {
@@ -2658,7 +2658,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": "2023-11-23T10:33:24.471435900",
                 "invoice": null
             },
-            "team": 1
+            "team": 2
         }
     },
     {
@@ -2680,7 +2680,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": "2023-11-23T10:33:24.471435900",
                 "invoice": null
             },
-            "team": 1
+            "team": 3
         }
     },
     {
@@ -2702,7 +2702,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": "2023-11-23T10:33:24.471435900",
                 "invoice": null
             },
-            "team": 1
+            "team": 2
         }
     },
     {
@@ -2724,7 +2724,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": "2023-11-23T10:33:24.471435900",
                 "invoice": null
             },
-            "team": 1
+            "team": 2
         }
     },
     {
@@ -2746,7 +2746,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": "2023-11-23T10:33:24.471435900",
                 "invoice": null
             },
-            "team": 1
+            "team": 2
         }
     },
     {
@@ -2768,7 +2768,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": "2023-11-23T10:33:24.471435900",
                 "invoice": null
             },
-            "team": 1
+            "team": 4
         }
     },
     {
@@ -2922,7 +2922,7 @@ export const EVENT_DATA: any[] = [
                 "shipment": "2023-01-09T14:48:45.338229700",
                 "invoice": "abe3e894-b732-4475-8156-f582a95e5e48-customer1-product1"
             },
-            "team": 0
+            "team": 4
         }
     }
 ]
