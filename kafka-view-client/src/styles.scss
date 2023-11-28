@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ECECEC;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 1vw;
+    height: 1vw;
+    padding: 0.25rem;
+    background: #fff;
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+    font: 1vw Arial, sans-serif;
+}
+
+.blue {
+    background: #cdcdff;
+    border: 1px solid #00f;
+}
+
+.yellow {
+    background: #ffffaa;
+    border: 1px solid #880;
+}
+
+.green {
+    background: #aaffaa;
+    border: 1px solid #080;
+}
+
+.red {
+    background: #ffaaaa;
+    border: 1px solid #800;
+}
+
+.table-head {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.table-body {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    overflow-y: hidden;
+}
