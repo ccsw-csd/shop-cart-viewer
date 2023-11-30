@@ -27,9 +27,9 @@ export class AppComponent implements OnInit  {
 
     ngOnInit(): void {
 
-        //setInterval(() => this.loadData(), 5000);
+        setInterval(() => this.loadData(), 5000);
         
-        this.loadData();
+        //this.loadData();
 
     }
 

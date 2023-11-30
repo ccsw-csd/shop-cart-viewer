@@ -17,7 +17,7 @@ import com.cap.order.shoporder.request.ShopOrderDataRequest;
 import com.cap.order.shoporder.request.ShopOrderRequest;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/data")
 @CrossOrigin(origins = "*")
 public class KafkaViewController {
 
@@ -27,7 +27,7 @@ public class KafkaViewController {
     @Autowired
     private KafkaProducer kafkaProducer;
 
-    @GetMapping("")
+    @GetMapping("/")
     public List<EventDataDto> get() {
 
         return kafkaConsumer.getData();
